@@ -1,0 +1,19 @@
+@import './bootstrap-overrides';
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/fa-regular-400.woff2);
+}
+
+.logo{
+    background-color: #FFEEDA;
+    img{
+        fill: #C28135;
+    }
+}
+
+.recommended{
+    background-color:#F5F4F8;
+}
+
+
