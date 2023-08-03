@@ -3,7 +3,6 @@
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "./bootstrap/scss/functions";
-@import "./bootstrap/scss/utilities";
 
 // 2. Include any default variable overrides here
 $primary : #7550FE;
@@ -21,6 +20,7 @@ $font-family-base: 'Inter', sans-serif;
 @import "./bootstrap/scss/mixins";
 @import "./bootstrap/scss/root";
 
+@import "./bootstrap/scss/utilities";
 // 6. Optionally include any other parts as needed
 // Layout & components
 @import "./bootstrap/scss/reboot";
